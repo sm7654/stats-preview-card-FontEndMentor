@@ -1,0 +1,292 @@
+/*  Get insights that help your business grow.
+
+  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+  experience, and overall efficiency.
+
+  10k+ companies
+  314 templates
+  12m+ queries*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&family=Inter:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100%;
+    min-height: 853px;
+
+    margin: 0;
+
+    display: grid;
+    place-items: center;
+
+    position: relative;
+
+    background-color: #011627;
+  }
+
+  .card {
+    width: 77.1484%;
+    height: 55.4513%;
+
+
+    border-radius: 5px;
+
+    background-color: #FDFFFC;
+  }
+
+
+
+  .main_text {
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 70px;
+    
+  }
+
+  .main_text h1 {
+    margin: 0;
+    margin-bottom: 33px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #011627;
+  }
+
+
+
+  .main_text p {
+    max-width: 368px;
+
+    margin: 0;
+    margin-bottom: 86px;
+
+    line-height: 1.8;
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif; 
+    
+    color: #011627;
+  }
+
+
+
+
+
+  .main_image  {
+    width: 50%;
+    float: left;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background: url(../images/image-header-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .overlay_image {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 473px;
+    background: rgba(255 , 159 , 28 , 0.65);
+    z-index: 2;
+  }
+
+
+  .stats {
+    max-width: 372px;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bold_white_text_stats {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif; 
+    
+    color: #FF9F1C;
+  }
+
+  .stats_text {
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+
+    color: #011627;
+  }
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1231px) {
+    .card {
+
+        
+        width: 654px;
+        height: 500px;
+
+        margin-top: 283px;
+        display: grid;
+        place-items: center;
+    }
+
+    .main_part {
+        width: 100%;
+        height: 480px;
+    }
+
+    .main_image {
+        height: 347px;
+        width: 654px;
+
+        position: absolute;
+        top: 21px;
+
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 5px;
+        
+        
+    }
+
+    .overlay_image {
+        width: 100%;
+        height: 100%;
+
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 5px;
+    }
+
+    .main_text {
+        padding-top: 55px;
+        padding-left: 0px;
+        padding-right: 0px;
+
+        display: grid;
+        place-items: center;  
+
+        position: relative;
+        
+        text-align: center;
+  
+    }
+
+    .stats {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+
+
+  @media only screen and (max-width: 800px){
+    .card {
+        width: 468px;
+        height: 440px;
+
+        margin-top: 283px;
+
+    }
+
+    .main_image {
+        width: 468px;
+    }
+
+    .main_text {
+        width: 100%;
+        padding-top: 45px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+        display: grid;
+        
+        text-align: center;
+    }
+  }
+
+
+  @media only screen and (max-width: 586px){
+    .card {
+        width: 366px;
+        height: 500px;
+    }
+
+    .main_image {
+        width: 366px;
+        height: 310px;
+    }
+    
+    .main_text {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 37px;
+    }
+
+    .main_text h1 {
+        margin-bottom: 9px;
+
+        font-size: 2rem;
+    }
+
+    .main_text p {
+        margin-bottom: 22px;
+    }
+
+    .stats {
+        height: 177px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .grow {
+        display: block;
+    }
+  }
+
+  @media only screen and (max-width: 410px) {
+    .card {
+        width: 317px;
+        height: 485px;
+
+        margin-top: 225px;
+    }
+
+    .main_image {
+        width: 317px;
+        height: 283px;
+    }
+
+    .main_text {
+        width: 317px;
+        padding-top: 40px;
+    }
+
+    .main_text h1 {
+        font-size: 1.8rem;
+    }
+
+    .main_text p {
+        font-size: 0.8rem;
+    }
+
+    .stats_text {
+        font-size: 0.7rem;
+    }
+
+    .bold_white_text_stats {
+        font-size: 1.3rem;
+    }
+  }
